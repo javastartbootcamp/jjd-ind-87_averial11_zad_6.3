@@ -1,5 +1,6 @@
 package pl.javastart.task;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +16,7 @@ public class Main {
 
         for (int i = 0; i < tab.length; i++) {
             for (int j = 0; j < tab[i].length; j++) {
-                tab[i][j] = i + j;
+                tab[i][j] = i * j;
             }
         }
 
