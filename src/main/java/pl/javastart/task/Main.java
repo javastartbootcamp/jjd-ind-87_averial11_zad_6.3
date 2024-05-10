@@ -22,7 +22,7 @@ public class Main {
 
         for (int[] row : tab) {
             for (int cell : row) {
-                System.out.printf("%-2d ", cell);
+                System.out.printf("%-2d | ", cell);
             }
             System.out.println();
         }
